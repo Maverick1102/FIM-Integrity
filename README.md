@@ -15,11 +15,35 @@ Availability : When a file can be easily changed/edited/deleted getting it when 
 
 So yeah the importance of this project speaks for itself.
 
-**Requirements**
+<ins>**Requirements**</ins>
+
 You dont really need anything for this project. Just an Windows OS or VM will be just fine. You just need to run the [code](https://github.com/Maverick1102/FIM-Integrity/blob/main/powershell.ps1) and maybe make a few text files to see the execution of the system.
 
+<ins>***WHILE DOING SO***</ins>, if you try running the code get this error :
 
-**Walkthrough**
+![](1.png)
+
+Kindly, follow these steps :
+1) Press **WINDOWS + X** key or right-click on the Start button and click **Run as Administrator** :
+
+![](3.png)
+
+2) Type in **Get-ExecutionPolicy -List**
+
+![](2-1.png)
+
+3) Then type in **Set-ExecutionPolicy Unrestricted**
+
+![](2-2.png)
+
+4) Then hit **A** key and we're all good to go.
+
+(If the error still  persists, **Set-ExecutionPolicy Unrestricted -Force**)
+
+<ins>**Walkthrough**</ins>
+
 So we are gonna build the system based on this flowchart. We will be constantly checking the baseline(baraii.txt) to see what deviations have occured to the folder of choice. 
 
 ![](FIM.png)
+
+
