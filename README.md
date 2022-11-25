@@ -19,7 +19,7 @@ So yeah the importance of this project speaks for itself.
 
 You dont really need anything for this project. Just an Windows OS or VM will be just fine. You just need to run the [code](https://github.com/Maverick1102/FIM-Integrity/blob/main/powershell.ps1) and maybe make a few text files to see the execution of the system.
 
-<ins>***WHILE DOING SO***</ins>, if you try running the code get this error :
+<ins>***WHILE DOING SO***</ins>, if you try running the code and get this error :
 
 ![](1.png)
 
