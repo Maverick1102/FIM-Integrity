@@ -1,4 +1,4 @@
-# FIM-Integrity
+# FIM-File_Integrity_Monitor
 Basic Level Powershell Project to Monitor Files Integrity
 
 So technically this software is meant to monitor the integrity of a given file. It's meant to monitor any changes of tempering done by a malicious actor or just for general privacy given we have some *wink wink* file (;
@@ -46,4 +46,16 @@ So we are gonna build the system based on this flowchart. We will be constantly 
 
 ![](FIM.png)
 
+You can use the [code](https://github.com/Maverick1102/FIM-Integrity/blob/main/powershell.ps1) from the repo, just make sure to change what's needed and test it out.
 
+You should recieve outputs like this given all is good :
+
+![](4.png)
+
+<ins>**Demonstration**</ins>
+
+This is the demo of how the system is meant to be used : 
+
+![](fim.gif)
+
+So thats about it, adios ((:
