@@ -14,3 +14,12 @@ Integrity : If information can be tempered with or change in a whim, the value o
 Availability : When a file can be easily changed/edited/deleted getting it when we want in the preferred format or even having it there on the device will become a massive issue.
 
 So yeah the importance of this project speaks for itself.
+
+**Requirements**
+You dont really need anything for this project. Just an Windows OS or VM will be just fine. You just need to run the [code](https://github.com/Maverick1102/FIM-Integrity/blob/main/powershell.ps1) and maybe make a few text files to see the execution of the system.
+
+
+**Walkthrough**
+So we are gonna build the system based on this flowchart. We will be constantly checking the baseline(baraii.txt) to see what deviations have occured to the folder of choice. 
+
+![](FIM.png)
